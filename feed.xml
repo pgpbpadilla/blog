@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pgpbpadilla.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pgpbpadilla.github.io/" rel="alternate" type="text/html" /><updated>2024-12-01T21:31:46+00:00</updated><id>https://pgpbpadilla.github.io/feed.xml</id><title type="html">Pablo Padilla’s Blog</title><subtitle>Personal blog, mainly about programming computers.</subtitle><entry><title type="html">AI Career</title><link href="https://pgpbpadilla.github.io/2024-10-02-ai-career" rel="alternate" type="text/html" title="AI Career" /><published>2024-10-02T00:00:00+00:00</published><updated>2024-10-02T00:00:00+00:00</updated><id>https://pgpbpadilla.github.io/ai-career</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-10-02-ai-career"><![CDATA[<p>
+In 2022, after 14 years as a software engineer, I found myself
+reconsidering my career path. The fast-paced software world was no
+longer compatible with my preference for deep thinking and
+exploration. This post outlines my journey, ultimately leading me to
+choose IT infrastructure over AI roles, and how that decision aligned
+better with my interests and work style.
+</p>
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+<div id="outline-container-intro" class="outline-2">
+<h2 id="intro"><span class="section-number-2">1.</span> Act I: Can Thinkers tinker?</h2>
+<div class="outline-text-2" id="text-intro">
+<p>
+Working as a software engineer can be stressful. The pace of
+modern/agile software teams is fast, bi-weekly sprints, continuous
+delivery, you build it &#x2026; you run it, etc.. On top of that, having
+to learn the next programming tool/technique is very demanding.
+</p>
+
+<p>
+I'm more of a thinker than a tinkerer; I like to look at topic from
+different angles, do some research, try a few experiments, step back
+and switch to something else while I let my brain process what I've
+learned, I might or might not come back to the topic depending on my
+level of interest or curiosity. My working preferences were not
+compatible with my programming job.
+</p>
+
+<p>
+During my vacation around the end of 2021 I was going over my career
+prospects; I thought that I was ready to commit to a role long-term
+but I needed to do some research to understand my options and
+compare them somehow.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-middle" class="outline-2">
+<h2 id="middle"><span class="section-number-2">2.</span> Act II: Educated Guessing</h2>
+<div class="outline-text-2" id="text-middle">
+<p>
+The first half of my career has been writing network clients and
+then writing application servers and release automation for the
+other half. I felt that I had been doing the same over and over only
+with different technologies and industry domains.
+</p>
+
+<p>
+I didn't feel that I could make a drastic change like going out of
+the software scene since writing software was my main activity in
+the past 10 years. I am not a big risk taker so I only considered
+alternative paths that could benefit from my experience as a
+programmer. 
+</p>
+
+<p>
+I had narrowed down my options to two: software architecture and
+artificial intelligence.
+</p>
+
+<p>
+In recent projects, my interest was often to get a glimpse of
+the high-level architecture and I would approach it by studying
+the delivery pipelines; when available, they describe the process
+each code change goes through to make it to a production
+environment.
+</p>
+
+<p>
+Artificial Intelligence was interesting because it aligns well with
+personal interest in the automation of knowledge organization and
+discovery.
+</p>
+
+<p>
+I found two resources that helped me Learn about what AI projects
+might look like in the industry:
+</p>
+
+<ol class="org-ol">
+<li>Chollet's book:
+<a name="chollet-dlwp" href="https://amzn.to/3BsKjwK"
+     target="_blank">Deep Learning with Python</a>:
+the Universal Machine Learning workflow was exactly what I was
+looking for at the time, a high-level overview of the life cycle
+of an ML Project.</li>
+
+<li>Andrew Ng's content at <a href="https://www.deeplearning.ai/">deeplearning.ai</a>: there I found
+descriptions of the different roles required to execute AI
+projects in the enterprise world. The site also has tools to
+asses your readiness for specific roles.</li>
+</ol>
+
+
+<p>
+I was disappointed but not very surprised to learn that machine
+learning projects look very similar to other software projects.
+</p>
+
+<p>
+AI/ML engineers bring their specialized skills to a project and were
+I to join an AI project, I would end up in a role almost
+indistinguishable to my current role, namely working on the delivery
+of AI-powered software to production environments.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-conclusion" class="outline-2">
+<h2 id="conclusion"><span class="section-number-2">3.</span> Act III: non-committal commitment</h2>
+<div class="outline-text-2" id="text-conclusion">
+<p>
+During my vacation I made the resolution to double down and continue
+working as a software engineer and become even more proficient
+writing code for applications and release automation.
+</p>
+
+<p>
+My resolution lasted about 4 hours after my return to work. On my
+first day after vacation, all it took was to read my mailbox and
+chat messages to remind me the many reasons why I was considering a
+change in the first place.
+</p>
+
+<p>
+I started looking for a new role and that lead me into the world of
+IT infrastructure architecture. The company is large and for the
+past 50 years has deployed pretty much every piece of technology
+worth mentioning; my IT universe expanded and I felt quite good
+about not pursing AI/ML.
+</p>
+
+<p>
+If you are considering a career in AI/ML, I highly recommend
+<a href="#chollet-dlwp">Chollet's book</a>; it's a
+window into the world of machine learning engineering in the
+industry, directly from a very influential software engineer and AI
+researcher.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-links" class="outline-2">
+<h2 id="links"><span class="section-number-2">4.</span> Related links</h2>
+<div class="outline-text-2" id="text-links">
+<ol class="org-ol">
+<li><a href="https://amzn.to/3BsKjwK" target="_blank">
+     Deep Learning with Python</a></li>
+
+<li><a href="https://www.deeplearning.ai/">deeplearning.ai</a></li>
+
+<li><a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Chollet">François Chollet</a> (Wikipedia)</li>
+
+<li>posts with labels
+
+<ul class="org-ul">
+<li><a href="/tag/ai">#ai</a></li>
+
+<li><a href="/tag/chollet">#chollet</a></li>
+
+<li><a href="/tag/software">#software</a></li>
+</ul></li>
+</ol>
+</div>
+</div>]]></content><author><name></name></author><category term="journal" /><category term="journal" /><category term="ai" /><category term="job" /><category term="career" /><category term="chollet" /><category term="software" /><summary type="html"><![CDATA[In 2022, after 14 years as a software engineer, I found myself reconsidering my career path. The fast-paced software world was no longer compatible with my preference for deep thinking and exploration. This post outlines my journey, ultimately leading me to choose IT infrastructure over AI roles, and how that decision aligned better with my interests and work style.]]></summary></entry><entry><title type="html">Definitions of Intelligence</title><link href="https://pgpbpadilla.github.io/2024-09-25-definition-intelligence" rel="alternate" type="text/html" title="Definitions of Intelligence" /><published>2024-09-25T00:00:00+00:00</published><updated>2024-09-25T00:00:00+00:00</updated><id>https://pgpbpadilla.github.io/definition-intelligence</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-09-25-definition-intelligence"><![CDATA[<p>
+A reference card for definitions of intelligence.
+</p>
+
+<p>
+This entry attempts to summarize the definitions of intelligence that
+I am familiar with. It is the result of trying to organize my thoughts
+on the subject. When reading multiple sources from various fields that
+address the concept of intelligence, perspectives can
+differ. Sometimes, it even seems as though they are discussing
+entirely different topics.
+</p>
+
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+<div id="outline-container-chollet" class="outline-2">
+<h2 id="chollet"><span class="section-number-2">1.</span> Chollet: Intelligence as learning efficiency</h2>
+<div class="outline-text-2" id="text-chollet">
+<p>
+<b>Definition:</b> Intelligence is the efficiency with which a learning
+system turns experience and priors into general skill at previously
+unseen tasks
+</p>
+
+<p>
+<b>Proponent</b>: François Chollet
+</p>
+
+<p>
+<b>Proposed metrics</b>: Skill Acquisition Efficiency (SAE)
+</p>
+
+<p>
+<b>Perspective</b>: Emphasizes generalization and the ability to learn
+ new tasks quickly from limited data. 
+</p>
+</div>
+
+<div id="outline-container-org06bb852" class="outline-3">
+<h3 id="org06bb852"><span class="section-number-3">1.1.</span> References</h3>
+<div class="outline-text-3" id="text-1-1">
+<ol class="org-ol">
+<li><a name="chollet"
+      href="/tag/chollet.html"
+      target="_blank">Chollet</a>:
+      proposes a benchmark for intelligence, the ARC challenge</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-hutter" class="outline-2">
+<h2 id="hutter"><span class="section-number-2">2.</span> Hutter: Universal Artificial Intelligence</h2>
+<div class="outline-text-2" id="text-hutter">
+<p>
+<b>Definition:</b> Intelligence measures the ability of an agent to
+achieve goals in a wide range of environments
+</p>
+
+<p>
+<b>Proponent:</b> Marcus Hutter
+</p>
+
+<p>
+<b>Proposed metrics:</b> Universal Intelligence Measure (UIM); a formal
+mathematical definition summing over all computable reward functions
+weighted by their simplicity. 
+</p>
+
+<p>
+<b>Perspective:</b> Provides a formal, mathematical framework based on
+algorithmic information theory to define and measure intelligence. 
+</p>
+</div>
+
+<div id="outline-container-orgc9e97c4" class="outline-3">
+<h3 id="orgc9e97c4"><span class="section-number-3">2.1.</span> References</h3>
+<div class="outline-text-3" id="text-2-1">
+<ol class="org-ol">
+<li><a name="hutter"
+      target="_blank"
+      href="/tag/hutter.html">AIXI</a>:
+      Marcus Hutter's AIXI model for Universal Artificial Intelligence</li>
+<li><a name="amzn-hutter-uai"
+      target="_blank"
+      href="https://amzn.to/3Y3Pa0l">Hutter</a>:
+      Books by Marcus Hutter on Amazon</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-schmidhuber" class="outline-2">
+<h2 id="schmidhuber"><span class="section-number-2">3.</span> Schmidhuber: Compression progress</h2>
+<div class="outline-text-2" id="text-schmidhuber">
+<p>
+<b>Definition:</b> Intelligence is the ability to generate novel,
+interesting actions or data by maximizing future expected reward or
+compression progress
+</p>
+
+<p>
+<b>Proponent:</b> Jürgen Schmidhuber
+</p>
+
+<p>
+<b>Proposed metrics:</b> Measures based on Compression Progress;
+improvement in predictive models driven by intrinsic motivation and
+curiosity
+</p>
+
+<p>
+<b>Perspective:</b> Highlights the role of intrinsic motivation,
+curiosity, and data compression in discovering new patterns and
+behaviors.
+</p>
+</div>
+
+<div id="outline-container-org74a5243" class="outline-3">
+<h3 id="org74a5243"><span class="section-number-3">3.1.</span> References</h3>
+<div class="outline-text-3" id="text-3-1">
+<ol class="org-ol">
+<li><a name="schmidhuber"
+      target="_blank"
+      href="https://youtu.be/q4fFuZgOZn8?si=Da1V2AUcpl5WorUH">Schmidhuber
+      on consciousness</a>:
+      intelligence [and conciousness] is a byproduct of data
+      compression</li>
+<li><a name="schmidhubber-blog"
+      target="_blank"
+      href="https://people.idsia.ch/~juergen/blog.html">AI Blog</a>:
+      Schmidhuber's AI Blog</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-mainstream" class="outline-2">
+<h2 id="mainstream"><span class="section-number-2">4.</span> Mainstream AI: Task-specific metrics</h2>
+<div class="outline-text-2" id="text-mainstream">
+<p>
+<b>Definition:</b> Intelligence is often operationally defined by
+performance on specific tasks or benchmarks without a unified
+overarching definition
+</p>
+
+<p>
+<b>Proponent:</b> Various
+</p>
+
+<p>
+<b>Proposed metrics:</b> Task-specific metrics such as Accuracy, F1
+Score, BLEU Score, etc., depending on the task
+</p>
+
+<p>
+<b>Perspective:</b> Focuses on empirical performance in narrow
+domains, emphasizing results on established benchmarks over a
+holistic definition of intelligence
+</p>
+</div>
+
+
+<div id="outline-container-orgcb4e472" class="outline-3">
+<h3 id="orgcb4e472"><span class="section-number-3">4.1.</span> References</h3>
+<div class="outline-text-3" id="text-4-1">
+<ol class="org-ol">
+<li><a name="amzn-ai-russel-norvig"
+      target="_blank"
+      href="https://amzn.to/3Y1D9Z8">Russel, Norvig</a>:
+      Artificial Intelligence: a modern approach</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-psychometrics" class="outline-2">
+<h2 id="psychometrics"><span class="section-number-2">5.</span> Psychometrics: Intelligence Quotient (IQ)</h2>
+<div class="outline-text-2" id="text-psychometrics">
+<p>
+<b>Definition:</b> Intelligence is the capacity for reasoning,
+problem-solving, planning, abstract thinking, understanding complex
+ideas, and learning from experience
+</p>
+
+<p>
+<b>Proponent:</b> Psychometrics
+</p>
+
+<p>
+<b>Proposed metrics:</b> Intelligence Quotient (IQ); standardized tests
+measuring various cognitive abilities
+</p>
+
+<p>
+<b>Perspective:</b> Emphasizes quantifiable cognitive abilities and
+compares individuals to population norms, focusing on human
+intelligence assessment 
+</p>
+</div>
+
+
+<div id="outline-container-org81127d1" class="outline-3">
+<h3 id="org81127d1"><span class="section-number-3">5.1.</span> References</h3>
+<div class="outline-text-3" id="text-5-1">
+<ol class="org-ol">
+<li><a name="g-factor"
+      target="_blank"
+      href="https://en.wikipedia.org/wiki/G_factor_(psychometrics)">g factor</a>:
+      a variable that summarizes positive correlations among different cognitive tasks</li>
+<li><a name="iq"
+      target="_blank"
+      href="https://en.wikipedia.org/wiki/Intelligence_quotient">IQ</a>:
+      Intelligence Quotient</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-superintelligence" class="outline-2">
+<h2 id="superintelligence"><span class="section-number-2">6.</span> Bostrom: Superintelligence</h2>
+<div class="outline-text-2" id="text-superintelligence">
+<p>
+<b>Definition:</b> Superintelligence refers to an intellect that greatly
+surpasses the cognitive performance of humans in virtually all
+domains of interest
+</p>
+
+<p>
+<b>Proponent:</b> Nick Bostrom
+</p>
+
+<p>
+<b>Proposed metrics:</b> No specific metric; concept explores potential
+capabilities beyond human levels 
+</p>
+
+<p>
+<b>Perspective:</b> Focuses on the implications, risks, and ethics
+associated with creating intelligences that far exceed human
+cognitive abilities 
+</p>
+</div>
+
+
+<div id="outline-container-orga73cf4c" class="outline-3">
+<h3 id="orga73cf4c"><span class="section-number-3">6.1.</span> References</h3>
+<div class="outline-text-3" id="text-6-1">
+<ol class="org-ol">
+<li><a name="amzn-bostrom"
+       target="_blank"
+       href="https://amzn.to/4eJOB1d">Superintelligence</a>:
+       Paths, Dangers, and Strategies</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-ethology" class="outline-2">
+<h2 id="ethology"><span class="section-number-2">7.</span> Ethology: Animal intelligence</h2>
+<div class="outline-text-2" id="text-ethology">
+<p>
+<b>Definition:</b> Intelligence is the ability of an animal to adapt to
+its environment, learn from experiences, solve problems, and use
+tools 
+</p>
+
+<p>
+<b>Proponent:</b> Ethology
+</p>
+
+<p>
+<b>Proposed metrics:</b> Behavioral tests assessing problem-solving, tool
+use, social learning, and communication abilities 
+</p>
+
+<p>
+<b>Perspective:</b> Studies intelligence across different species,
+emphasizing evolutionary adaptations and ecological contexts 
+</p>
+</div>
+
+
+
+<div id="outline-container-orgd10bb27" class="outline-3">
+<h3 id="orgd10bb27"><span class="section-number-3">7.1.</span> References</h3>
+<div class="outline-text-3" id="text-7-1">
+<ol class="org-ol">
+<li><a name="wiki-animal-cog"
+       target="_blank"
+       href="https://en.wikipedia.org/wiki/Animal_cognition">Wikipedia</a>:
+       Animal cognition</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-agi" class="outline-2">
+<h2 id="agi"><span class="section-number-2">8.</span> Human-like AI: Artificial General Intelligence (AGI)</h2>
+<div class="outline-text-2" id="text-agi">
+<p>
+<b>Definition:</b> Intelligence is the ability of an artificial agent to
+understand, learn, and apply knowledge in a general, human-like way
+across a wide range of tasks and domains 
+</p>
+
+<p>
+<b>Proponent:</b> Various
+</p>
+
+<p>
+<b>Proposed metrics:</b> No standardized metric yet; Turing Test, general
+AI benchmarks, and evaluations across diverse tasks are used 
+</p>
+
+<p>
+<b>Perspective:</b> Aims to develop machines with general cognitive
+abilities comparable to humans, capable of understanding and
+reasoning across various contexts 
+</p>
+</div>
+
+
+<div id="outline-container-orga8bb605" class="outline-3">
+<h3 id="orga8bb605"><span class="section-number-3">8.1.</span> References</h3>
+<div class="outline-text-3" id="text-8-1">
+<ol class="org-ol">
+<li><a name="wiki-agi"
+       target="_blank"
+       href="https://en.wikipedia.org/wiki/Artificial_general_intelligence">Wikipedia</a>:
+       Artificial General Intelligence</li>
+</ol>
+</div>
+</div>
+</div>]]></content><author><name></name></author><category term="journal" /><category term="journal" /><category term="ai" /><category term="intelligence" /><category term="definition" /><summary type="html"><![CDATA[A reference card for definitions of intelligence.]]></summary></entry><entry><title type="html">Distributed agile teams</title><link href="https://pgpbpadilla.github.io/2024-08-16-distributed-agile-teams" rel="alternate" type="text/html" title="Distributed agile teams" /><published>2024-08-16T00:00:00+00:00</published><updated>2024-08-16T00:00:00+00:00</updated><id>https://pgpbpadilla.github.io/distributed-agile-teams</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-08-16-distributed-agile-teams"><![CDATA[<p>
+Can distributed teams be agile? Does Jira kill agility? 
+</p>
+
+<p>
+I was scrolling LinkedIn when I saw a picture of Jira executing a
+wrestling splash on Agility. It triggered a train of thought about the
+place for tools like Jira in the context of distributed teams that
+span different time zones and on which the team members often have to
+split their attention into multiple projects.
+</p>
+
+
+<div style="text-align: center">
+  <img src="/assets/images/jira-splash-agility.png" style="width: 50%">
+</div>
+
+
+<p>
+In my experience as a software engineer, I have seen that the words
+Agile, Scrum, and Kanban are often used interchangeably. One reason
+for this is that the key ideas of each one fits really well with the
+others. These ways of work share some assumptions:
+</p>
+
+<ol class="org-ol">
+<li>Team co-location: everybody is in the same geographical location,
+building, or room</li>
+<li>Undivided attention: each person contributes to a single
+team/project/product</li>
+</ol>
+
+
+<p>
+How can distributed teams remain agile when these two assumptions are
+broken? Before we go into the challenges that distributed teams face,
+let's take a quick look at key differences between Agile, Scrum and
+Kanban.
+</p>
+
+<ol class="org-ol">
+<li>Agile: originated in software development with a focus on
+delivery of value through close collaboration with customers and being
+flexible in responding to change</li>
+<li>SCRUM: originated in software development with a focus on time-boxed
+delivery cycles (iterations) with a fixed scope</li>
+<li>Kanban: originated in manufacturing with a focus on visualizing
+work, managing flow, and reducing waste</li>
+</ol>
+
+
+<p>
+The fact that the terms are used interchangeably it's a reminder of
+how similar the philosophies are. These ways of working are
+complementary and teams mix and match practices from all
+of them without batting an eyelash.
+</p>
+
+
+
+<div id="outline-container-orge7f281d" class="outline-2">
+<h2 id="orge7f281d"><span class="section-number-2">1.</span> Documentation as communication</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+The distinction between communication and documentation can be
+blurry for distributed teams. Recorded communication can be seen as
+extended documentation, at the same time, documentation is a form of
+communication.
+</p>
+
+<p>
+Distributed teams can use recorded communication like chat, email,
+comments, etc. to bridge the gap created by geography. As long as
+communication is given priority over the tools or processes, the use
+of documentation as communication seems to maintain the spirit of
+the agile manifesto.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgfc7d8e5" class="outline-2">
+<h2 id="orgfc7d8e5"><span class="section-number-2">2.</span> Communication through a central channel</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Some complex tasks require sharing context with multiple people.
+Consolidating context in a central location such as Jira/Wiki, makes
+it easier to onboard newcomers.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org935007f" class="outline-2">
+<h2 id="org935007f"><span class="section-number-2">3.</span> Documentation and context switching</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Distributed teams are often composed of individuals that participate
+in multiple projects simultaneously. Individuals who have to split
+their attention into multiple projects reduce the impact created by
+context switching by documenting useful details, such as the current
+status, and planned next steps.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgb8fb6f3" class="outline-2">
+<h2 id="orgb8fb6f3"><span class="section-number-2">4.</span> Tools don't kill agility, people do</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+For distributed teams, systems like Jira serve as a central place
+for coordinating work. I find it intriguing that people with
+technical IT skills often forget the value of systems like JIRA and
+at the same time they can deliver complex systems. Jira is bloated
+and could offer better user experience but it does not impose any
+workflow or methodology.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgfaa2da4" class="outline-2">
+<h2 id="orgfaa2da4"><span class="section-number-2">5.</span> Every project management tool wants to become like JIRA</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+In principle, e-mail is sufficient. However, once you get used to
+the amenities of modern collaboration tools, it's hard to go back
+and use only e-mail. Popular collaboration tools seem to be
+converging in terms of features like creating a task from a chat
+conversation, tracking status, assigning, visualizing tasks and
+their relationships, linking to code or documentation, etc. Tools
+that started with one of these features continue adding more
+features until they cover all the basics of project management.
+</p>
+
+<p>
+Companies arrive to systems like JIRA by taking a
+holistic/integrated approach. It's not perfect, but the available
+options are only a round of funding away from becoming like Jira.
+</p>
+
+<p>
+Project management and collaboration is a complex domain, which
+explains why most tools offer a terrible user experience. I always
+remind myself that it could be worse, imagine doing project
+management only with email and PowerPoint. 
+</p>
+</div>
+</div>]]></content><author><name></name></author><category term="journal" /><category term="software" /><category term="journal" /><category term="agile" /><category term="teams" /><category term="software" /><category term="distributed" /><summary type="html"><![CDATA[Can distributed teams be agile? Does Jira kill agility?]]></summary></entry><entry><title type="html">Illuminating the Mind: A Journey Toward Enlightenment</title><link href="https://pgpbpadilla.github.io/2024-08-09-optocap" rel="alternate" type="text/html" title="Illuminating the Mind: A Journey Toward Enlightenment" /><published>2024-08-09T00:00:00+00:00</published><updated>2024-08-09T00:00:00+00:00</updated><id>https://pgpbpadilla.github.io/optocap</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-08-09-optocap"><![CDATA[<p>
+In the near future, NeuroLight Corporation revolutionized neuroscience
+with a procedure that replaced the top of the human skull with an
+artificial cap. This "OptoCap" embedded with micro-scale light
+emitters, allowed precise control over brain activity through
+optogenetics—a technique that used light to manipulate neurons
+engineered to be light-sensitive. 
+</p>
+
+<p>
+<b>Disclaimer: this post was created with ChatGPT, an AI language
+model.</b>
+</p>
+
+<div style="text-align: center">
+  <img src="/assets/images/optocap.png" style="width: 50%">
+</div>
+
+<div id="outline-container-orge212275" class="outline-2">
+<h2 id="orge212275"><span class="section-number-2">1.</span> The Decision</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Lena sat in the waiting room of NeuroLight Corporation, surrounded
+by holographic displays promoting the incredible achievements of
+those enhanced by the OptoCap.
+</p>
+
+<p>
+"Ms. Torres?" called Ethan, a consultant with a polished
+demeanor. He ushered her into a futuristic office and gestured for
+her to sit.
+</p>
+
+<p>
+“You’re about to unlock your full potential,” Ethan began,
+projecting an image of a brain onto the glass table between
+them. “The OptoCap can amplify your confidence, intelligence,
+creativity—whatever you need.”
+</p>
+
+<p>
+Lena had always been cautious, but the promise of self-improvement
+was enticing. “Can it really make me more decisive?”
+</p>
+
+<p>
+“With optogenetic programming, you can reshape your neural pathways
+to strengthen any trait you desire,” Ethan explained. “Imagine
+eliminating self-doubt or boosting your cognitive speed.”
+</p>
+
+<p>
+Lena’s resolve hardened. “Let’s do it.”
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org440333e" class="outline-2">
+<h2 id="org440333e"><span class="section-number-2">2.</span> The Installation</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+The procedure was quick. Lena awoke feeling a slight weight on her
+head, her cap glowing faintly.
+</p>
+
+<p>
+“Welcome to your new life, Lena,” Dr. Harmon, the chief scientist,
+said as he handed her a sleek control tablet. “With this, you can
+select programs to modulate brain states.”
+</p>
+
+<p>
+Lena marveled at the array of options. She felt powerful, like an
+artist with an unlimited palette.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgbd9fb67" class="outline-2">
+<h2 id="orgbd9fb67"><span class="section-number-2">3.</span> The Exploration</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Within days, Lena transformed. Her confidence surged, making her an
+instant leader at work. The OptoCap’s programs allowed her to adjust
+her mood and cognition with a few taps.
+</p>
+
+<p>
+At home, she selected the "Creative Boost" setting for an upcoming
+project. Waves of inspiration washed over her, unlocking ideas she
+never imagined.
+</p>
+
+<p>
+One evening, as she explored deeper into her cap’s settings, Lena
+found an unfamiliar program. When she opened it, memories of board
+meetings and conversations she didn’t remember participating in
+flooded her mind.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org74d99c7" class="outline-2">
+<h2 id="org74d99c7"><span class="section-number-2">4.</span> The Revelation</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Alarmed, Lena contacted Ethan. He arrived quickly, his usual composure
+replaced by nervousness.
+</p>
+
+<p>
+“Lena, I assure you, everything is fine,” he began, but Lena cut him
+off.
+</p>
+
+<p>
+“I found a program logging my thoughts. What is NeuroLight doing?”
+</p>
+
+<p>
+Ethan hesitated. “There are built-in data collection systems. The
+company uses them to monitor user feedback&#x2026;and sometimes influence.”
+</p>
+
+<p>
+“Influence?” Lena repeated, incredulous. “You mean control.”
+</p>
+
+<p>
+Ethan nodded, cornered. “It’s part of ensuring compliance and
+optimizing the system.”
+</p>
+
+<p>
+Realization struck Lena—she was being manipulated. Her mind was not
+her own.
+</p>
+</div>
+</div>]]></content><author><name></name></author><category term="sci-fi" /><category term="shorts" /><category term="optogenetics" /><category term="sci-fi" /><category term="shorts" /><summary type="html"><![CDATA[In the near future, NeuroLight Corporation revolutionized neuroscience with a procedure that replaced the top of the human skull with an artificial cap. This "OptoCap" embedded with micro-scale light emitters, allowed precise control over brain activity through optogenetics—a technique that used light to manipulate neurons engineered to be light-sensitive.]]></summary></entry><entry><title type="html">The fork</title><link href="https://pgpbpadilla.github.io/2024-08-08-the-fork" rel="alternate" type="text/html" title="The fork" /><published>2024-08-08T00:00:00+00:00</published><updated>2024-08-08T00:00:00+00:00</updated><id>https://pgpbpadilla.github.io/the-fork</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-08-08-the-fork"><![CDATA[<p>
+Explore a world reshaped by guided evolution, where a privileged
+class challenges traditional norms and steers humanity to unexpected
+fates.   
+</p>
+
+
+<p>
+<b>Disclaimer: this post was created with ChatGPT, an AI language model.</b>
+</p>
+
+<div style="text-align: center">
+  <img src="/assets/images/the-fork.png" style="width: 50%">
+</div>
+
+<div id="outline-container-orgbce3027" class="outline-2">
+<h2 id="orgbce3027"><span class="section-number-2">1.</span> Take 1: Endless forms</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+In the year 2160, the city of Aria stood as a beacon of progress and
+unity. Here, the Selected, a privileged class born sterile due to
+atypical sex differentiation, had risen to power. For centuries,
+they had been marginalized due to their inability to reproduce
+traditionally, but with advancements in genetic engineering, they
+found a new purpose.
+</p>
+
+<p>
+The Selected devised a system where offspring were created through a
+combination of their original DNA and advanced genetic
+engineering. This method allowed the creation of highly adaptive,
+intelligent, and emotionally balanced humans who were celebrated as
+the "Neo-Gens." The old societal emphasis on sexual reproduction
+dwindled, as the Neo-Gens quickly demonstrated extraordinary talents
+and harmonious temperaments.
+</p>
+
+<p>
+With the Selected in leadership positions, they shifted governmental
+incentives to focus on intellectual and creative contributions rather
+than traditional family structures. Those who excelled in arts,
+sciences, and community leadership were rewarded with resources and
+opportunities, fostering a society driven by merit and innovation.
+</p>
+
+<p>
+As decades passed, the city of Aria flourished. Conflicts over
+resources diminished, as collaboration became the cornerstone of
+society. With genetic diversity and innovation at the forefront,
+diseases that plagued the human race for centuries were eradicated,
+and the environment thrived under careful stewardship.
+</p>
+
+<p>
+Elders sat in the serene Gardens of Aria, observing children playing—a
+new generation that knew no prejudice or inequality. The Selected
+watched with pride, knowing they had not only survived but had
+reshaped humanity's fate.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgede5b5f" class="outline-2">
+<h2 id="orgede5b5f"><span class="section-number-2">2.</span> Take 2: The future is sterile</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+By 2160, the Omega Line, once a marginalized class, defined by their
+sterility, had seized control of the city of Aria. With
+advancements in genetic engineering, they began creating offspring
+not through traditional means but by combining their DNA with
+engineered enhancements, producing the Neo-Gens.
+</p>
+
+<p>
+The shift from sexual reproduction to engineered births led
+to societal unrest. Traditional families, feeling threatened by the
+new system, protested against what they saw as an erosion of human
+nature. The government, now dominated by the Omega Line, responded
+with strict laws that favored the Neo-Gens, marginalizing those who
+clung to old ways.
+</p>
+
+<p>
+The promise of progress gave way to control. Society split into two
+classes: the genetically engineered Neo-Gens and the "Naturals," those
+born through traditional reproduction. Naturals faced increasing
+discrimination, relegated to menial jobs, and barred from leadership
+roles.
+</p>
+
+<p>
+As the divide deepened, Aria became a city under surveillance, where
+dissenters were swiftly silenced. The Omega Line, in their bid to
+maintain control, implemented a draconian regime, manipulating
+genetics to create a generation of Neo-Gens devoid of free will.
+</p>
+
+<p>
+Hope flickered among the Naturals, who formed underground resistance
+groups, determined to restore the balance and ensure diversity in
+human evolution. But the Omega Line's grip was strong, and for every
+small victory, the resistance suffered great losses.
+</p>
+
+<p>
+Life continues in the city as the Omega Line maintains a firm grip
+on the government. Stories circulate about Normals walking
+among the general population, though no one has had direct contact
+with them since the fork.   
+</p>
+</div>
+</div>]]></content><author><name></name></author><category term="sci-fi" /><category term="sci-fi" /><category term="shorts" /><category term="diversity" /><summary type="html"><![CDATA[Explore a world reshaped by guided evolution, where a privileged class challenges traditional norms and steers humanity to unexpected fates.]]></summary></entry><entry><title type="html">Vorherbestimmt von Robert Sapolsky</title><link href="https://pgpbpadilla.github.io/2024-04-24-sapolsky-vorherbestimmt" rel="alternate" type="text/html" title="Vorherbestimmt von Robert Sapolsky" /><published>2024-04-24T18:20:00+00:00</published><updated>2024-04-24T18:20:00+00:00</updated><id>https://pgpbpadilla.github.io/sapolsky-vorherbestimmt</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-04-24-sapolsky-vorherbestimmt"><![CDATA[<p>
+"Vorherbestimmt" ist ein Buch von Robert Sapolsky, in dem der Autor
+für den Determinismus argumentiert. 
+</p>
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+<p>
+Sapolsky erklärt, dass Freier Wille bedeutet, nicht nur seine eigenen
+Handlungen, sondern auch seine eigene Absicht wählen zu können.
+</p>
+
+<p>
+Eines der bekanntesten Experimente zum Thema Freier Wille sind die
+Libet-Experimente, die zeigen, dass Handlungen ausgeführt werden,
+bevor man sich ihrer eigenen Handlungen bewusst ist.
+</p>
+
+<div style="text-align: center">
+  <iframe width="427"
+          height="240"
+          src="https://www.youtube.com/embed/OjCt-L0Ph5o"
+          title="The Libet Experiment: Is Free Will Just an Illusion?"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+</div>
+
+
+<p>
+Im Libet-Experiment werden jedoch nur die kurzen Momente vor den
+Handlungen analysiert, was Sapolsky als unzureichend empfindet. Laut
+Sapolskys Definition von Freiem Willen können wir die entfernten
+Ursachen des Verhaltens nicht ignorieren. Das bedeutet, wir müssen
+nicht nur die Millisekunden, Minuten und Stunden vor der Handlung
+analysieren, sondern auch die vorherigen Jahre, Jahrzehnte,
+Jahrhunderte usw. Um etwas als Freien Willen zu bezeichnen, müssen wir
+die unverursachte Ursache finden.
+</p>
+
+<p>
+Nur die unmittelbare Vergangenheit der Handlungen zu betrachten, ist
+laut Sapolsky, wie nur die letzten drei Minuten eines Films zu
+sehen. Freiem Willen die Anerkennung für seine Handlungen zu geben,
+ist ein Eingeständnis, die Ursachen nicht zu kennen.
+</p>
+
+<p>
+<a href="https://amzn.to/3N1sBTF"
+          target="_blank">
+         Kauf das Buch bei Amazon
+       </a>
+</p>]]></content><author><name></name></author><category term="journal" /><category term="deutsch" /><category term="buch" /><category term="sapolsky" /><category term="free-will" /><category term="bio" /><category term="journal" /><category term="deutsch" /><summary type="html"><![CDATA["Vorherbestimmt" ist ein Buch von Robert Sapolsky, in dem der Autor für den Determinismus argumentiert.]]></summary></entry><entry><title type="html">Eine kurze Geschichte der Intelligenz</title><link href="https://pgpbpadilla.github.io/2024-04-20-gehirn+evo+ki" rel="alternate" type="text/html" title="Eine kurze Geschichte der Intelligenz" /><published>2024-04-20T13:20:00+00:00</published><updated>2024-04-20T13:20:00+00:00</updated><id>https://pgpbpadilla.github.io/gehirn+evo+ki</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-04-20-gehirn+evo+ki"><![CDATA[<p>
+Gestern habe ich ein sehr cooles Video geschaut. Es handelt von der
+Evolution der Intelligenz. Hier ist das Bild, das bei mir im
+Gedächtnis geblieben ist.
+</p>
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+<p>
+Das Video basiert auf dem Buch von Max Bennet:
+<a href="https://amzn.to/3Y2HGuy"
+          target="_blank">
+         Eine kurze Geschichte der Intelligenz.
+       </a>
+</p>
+
+
+<div style="text-align: center">
+  <img src="/assets/images/bhi-pyramid.png">
+  <figcaption>Evolutionäre Durchbrüche der Intelligenz.</figcaption>
+</div>
+
+
+<p>
+Der Erzähler spricht über die Geschichte der Intelligenz aus der
+Perspektive der Entwicklung des Gehirns sowie der größten Durchbrüche
+bei der Lernfähigkeit. 
+</p>
+
+<ol class="org-ol">
+<li>Belohnung suchen: Instinktverhalten. Die einfachste Form der
+Intelligenz, kein Lernen.</li>
+<li>Aus Erfahrung lernen: empirische Erprobung mit Rückkopplung,
+Belohnung korrekten Verhaltens, Lernen aus Fehlern, Bestärkendes
+Lernen.</li>
+<li>Gedankenexperimente: Simulation eigener Handlungen, Planung und
+Entscheidungen auf Basis erwarteter (simulierter) zukünftiger
+Belohnungen.</li>
+<li>Theorie des Mentalen: Simulation der Gedanken einer anderen Person,
+Lernen aus den Fehlern anderer.</li>
+<li>Sprache: Externalisierung von Gedanken oder Ideen, Lernen
+unabhängig von Handlungen.</li>
+</ol>
+
+
+<p>
+Das vollständige Video kannst du auf YouTube ansehen:
+</p>
+
+<iframe width="800" height="600"
+        src="https://www.youtube.com/embed/5EcQ1IcEMFQ"
+        title="How Intelligence Evolved | A 600 Million Year Story"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+</iframe>]]></content><author><name></name></author><category term="journal" /><category term="deutsch" /><category term="journal" /><category term="deutsch" /><category term="ai" /><category term="ki" /><category term="intelligence" /><category term="intelligenz" /><category term="überprüfen" /><summary type="html"><![CDATA[Gestern habe ich ein sehr cooles Video geschaut. Es handelt von der Evolution der Intelligenz. Hier ist das Bild, das bei mir im Gedächtnis geblieben ist.]]></summary></entry><entry><title type="html">Der Anschein von Fairness</title><link href="https://pgpbpadilla.github.io/2024-02-10-der-anschein-von-fairness" rel="alternate" type="text/html" title="Der Anschein von Fairness" /><published>2024-02-10T11:19:00+00:00</published><updated>2024-02-10T11:19:00+00:00</updated><id>https://pgpbpadilla.github.io/der-anschein-von-fairness</id><content type="html" xml:base="https://pgpbpadilla.github.io/2024-02-10-der-anschein-von-fairness"><![CDATA[<p>
+Ich höre gerade das Hörbuch von Richard Thaler, <i><a href="https://w.wiki/98p9">Misbehaving</a></i>
+(Fehlverhalten). Im Kapitel 14: "What seems fair" (Was fair erscheint)
+beschreibt der Autor einige Situationen, in denen eine Firma
+Entscheidungen darüber trifft, wie Preise festgelegt werden sollen,
+und wie die Kunden darauf reagiert haben.
+</p>
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+<p>
+Das erste Beispiel bezieht sich auf die Preise für Schnee-schaufeln
+nach einem schweren Schneefall. Die Firma hat sich entschieden, die
+Preise zu erhöhen. Der Grund dafür war, dass bei höherer Nachfrage die
+Schaufeln knapp werden und es allgemein bekannt ist, dass Preise
+steigen, wenn die Nachfrage hoch und das Angebot niedrig ist.
+</p>
+
+<p>
+Die wiederkehrende Bemerkung im gesamten Buch ist, dass, wenn Menschen
+als rationale Agenten (Econs) betrachtet werden, Fehler im gesunden
+Menschenverstand auftreten können, z.B. würde der durchschnittliche
+Mensch die Entscheidung der Firma im obigen Beispiel als ungerecht
+beurteilen.
+</p>
+
+<p>
+<a href="https://amzn.to/47Sdgyo"
+          target="_blank">
+         Kauf das Buch bei Amazon.
+       </a>
+</p>]]></content><author><name></name></author><category term="journal" /><category term="deutsch" /><category term="journal" /><category term="deutsch" /><category term="econ" /><category term="thaler" /><summary type="html"><![CDATA[Ich höre gerade das Hörbuch von Richard Thaler, Misbehaving (Fehlverhalten). Im Kapitel 14: "What seems fair" (Was fair erscheint) beschreibt der Autor einige Situationen, in denen eine Firma Entscheidungen darüber trifft, wie Preise festgelegt werden sollen, und wie die Kunden darauf reagiert haben.]]></summary></entry><entry><title type="html">Org-mode + PlantUML + Jekyll</title><link href="https://pgpbpadilla.github.io/2023-12-23-org+plantuml+jekyll" rel="alternate" type="text/html" title="Org-mode + PlantUML + Jekyll" /><published>2023-12-23T12:34:00+00:00</published><updated>2023-12-23T12:34:00+00:00</updated><id>https://pgpbpadilla.github.io/org+plantuml+jekyll</id><content type="html" xml:base="https://pgpbpadilla.github.io/2023-12-23-org+plantuml+jekyll"><![CDATA[<p>
+Heute möchte ich zeigen wie man ein PlantUML Diagramm mit Org-mode
+erstellt und in ein Jekyll Blog veröffentlicht.
+</p>
+
+<p>
+Der Quellcode des Diagramm ist:
+</p>
+
+
+<div class="org-src-container">
+<pre class="src src-plantuml">Alice -&gt; Bob:  synchrone Nachricht
+Alice -&gt;&gt; Bob: asynchrone Nachricht
+</pre>
+</div>
+
+
+<p>
+Man kann der PlantUML-Quellcode in Org Codeblöcke einbetten<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>: 
+</p>
+
+<pre class="example">
+#+begin_src plantuml :file ../svg/org+plantuml.svg :exports code
+  Alice -&gt; Bob:  synchrone Nachricht
+  Alice -&gt;&gt; Bob: asynchrone Nachricht
+#+end_src
+</pre>
+
+
+
+<p>
+Das Argument <code>:file</code> gibt den Speicherort des Diagramms an.
+</p>
+
+
+<p>
+Wenn wir das Diagramm anzeigen wollen, können wir so machen:
+</p>
+
+<pre class="example">
+#+begin_export html
+&lt;div style="text-align: center"&gt;
+  &lt;img src="/assets/svg/org+plantuml.svg"&gt;
+  &lt;figcaption&gt;PlantUML diagram.&lt;/figcaption&gt;
+&lt;/div&gt;
+#+end_export
+</pre>
+
+
+
+<p>
+Das Diagramm sieht so aus:
+</p>
+
+<div style="text-align: center">
+  <img src="/assets/svg/org+plantuml.svg">
+  <figcaption>PlantUML diagram.</figcaption>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Fu&szlig;noten: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://eschulte.github.io/babel-dev/DONE-integrate-plantuml-support.html">Org-babel PlantUML-Unterstützung</a> 
+</p></div></div>
+
+
+</div>
+</div>]]></content><author><name></name></author><category term="journal" /><category term="journal" /><category term="deutsch" /><category term="org-mode" /><category term="plantuml" /><category term="jekyll" /><summary type="html"><![CDATA[Heute möchte ich zeigen wie man ein PlantUML Diagramm mit Org-mode erstellt und in ein Jekyll Blog veröffentlicht.]]></summary></entry><entry><title type="html">Estimation vs Forecast in Software projects</title><link href="https://pgpbpadilla.github.io/2023-12-21-estimation+forecast" rel="alternate" type="text/html" title="Estimation vs Forecast in Software projects" /><published>2023-12-21T20:59:00+00:00</published><updated>2023-12-21T20:59:00+00:00</updated><id>https://pgpbpadilla.github.io/estimate+forecast</id><content type="html" xml:base="https://pgpbpadilla.github.io/2023-12-21-estimation+forecast"><![CDATA[<p>
+During my career in Software, the problem of estimating the time,
+effort and cost of a software project has been one of the hardest.
+</p>
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+
+<div id="outline-container-org1f35938" class="outline-2">
+<h2 id="org1f35938">Agile estimation</h2>
+<div class="outline-text-2" id="text-org1f35938">
+<p>
+When I learned about Scrum, I was totally convinced that estimation
+was legit. It bothered me that when estimating using Fibonacci
+numbers, people would try to do arithmetic with them like it meant
+something. It doesn't. Calculating <i>velocity</i> was more or less
+pointless.
+</p>
+
+<p>
+I still buy that relative estimation was better than absolute
+estimation, however, in order to get good at estimating, you have to
+have seen many similar items. In my career, I have been switching
+technologies and industries every couple of years so pretty much
+every task is, in some sense, different and it's hard to compare
+with the past.
+</p>
+
+<p>
+The time discussing whether something is an X, XL or XXL was almost
+too much for me. I wanted to get started building something small,
+then extend it a bit, then a bit more, you know, iterative and
+incremental progress instead of trying to nail down an accurate
+estimate the first time.
+</p>
+
+<p>
+Today I am convinced that estimation in this way is a complete waste
+of time.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org9aa764a" class="outline-2">
+<h2 id="org9aa764a">Forecasts</h2>
+<div class="outline-text-2" id="text-org9aa764a">
+<p>
+While looking for alternatives I found the <a href="https://www.youtube.com/watch?v=QVBlnCTu9Ms">#NoEstimates video</a> from
+<a href="https://holub.com/">Allen Holub</a> and I was hooked. The idea of using past performance to
+make projections about the future was already present in Scrum and I
+was more or less comfortable taking it for granted. Calculating
+velocity never really made much sense to me, given what I said about
+doing arithmetic with Fibonacci numbers, can you imagine doing it
+with T-Shirt sizes?
+</p>
+
+<p>
+Holub proposes instead to do away with all the time used for trying
+to estimate a task and instead ensure that tasks are as small and
+that they are prioritised. Nobody wants to spend time doing stuff
+that does not matter.
+</p>
+
+<p>
+Measuring actual time it takes to complete enables you to stop using
+guesstimates, it's faster and easier to do. Making tasks small means
+there are more data points (measurements) available to create a
+forecast/projection of how long it may take to complete a list of
+tasks.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org4afece7" class="outline-2">
+<h2 id="org4afece7">Priorities</h2>
+<div class="outline-text-2" id="text-org4afece7">
+<p>
+With agile estimation, you don't know when a particular item in the
+backlog will be completed. This gets more difficult as more stories
+are dropped in order to make the deadline.
+</p>
+
+<p>
+A forecast will tell you the likelihood of completing a specific
+task at a given time and it can be recalculated as you rearrange
+items in the backlog.
+</p>
+
+<p>
+The ease and speed of calculating a forecast can be a stronger
+motivator for decision makers to try and rearrange the backlog with
+confidence in order to visualise different scenarios. This is harder
+to do with agile estimation methods since it's difficult to
+anticipate the impact that rearranging the backlog will have on the
+completion date of a task.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgcf76ab7" class="outline-2">
+<h2 id="orgcf76ab7">Challenges</h2>
+<div class="outline-text-2" id="text-orgcf76ab7">
+<p>
+Measurements + forecasting seem to me like they should yield better
+results when used for project estimation. However, it's difficult to
+apply. Even if you manage to master all the concepts of how to
+properly use a forecasting technique, you still need to provide your
+estimate of the project's cost and effort and duration before you
+can get the money to start the project.
+</p>
+
+<p>
+Another difficulty is that once a project is started, it's difficult
+to gain mind share about using a forecast instead of
+estimates. People are already struggling to make sense of Agile
+estimation methods given all of their obvious pitfalls. Convincing
+them to use something like a Monte-Carlo simulation to forecast the
+likelihood of a task being done at a particular point in time can be
+challenging at best.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-org553f485" class="outline-2">
+<h2 id="org553f485">Further reading</h2>
+<div class="outline-text-2" id="text-org553f485">
+<ol class="org-ol">
+<li><a href="https://holub.com/noestimates-an-introduction/">#NoEstimates, an introduction @ Allen Holub' Blog</a></li>
+<li><a href="https://www.youtube.com/watch?v=juVYuh0S1hQ&amp;ab_channel=ConfEngine">No estimates by Vasco Duarte @ YouTube</a>: how you can predict the
+release date of your project without estimating</li>
+<li>No estimates: How to measure project progress without estimating
+by Vasco Duarte.
+<a href="https://amzn.to/4enAgHP"
+               target="_blank">
+              Buy on amazon.
+            </a></li>
+</ol>
+</div>
+</div>]]></content><author><name></name></author><category term="journal" /><category term="software" /><category term="project" /><category term="journal" /><category term="agile" /><category term="software" /><category term="estimation" /><category term="forecast" /><category term="NoEstimates" /><summary type="html"><![CDATA[During my career in Software, the problem of estimating the time, effort and cost of a software project has been one of the hardest.]]></summary></entry></feed>

@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PMDH4JF7');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+
+    
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9XEV7PSBE"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'G-P9XEV7PSBE');
+        </script>
+    
+
+    <!-- Non social metatags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    
+
+    <title>Estimation vs Forecast in Software projects</title>
+
+    
+        <!-- SEO -->
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Estimation vs Forecast in Software projects | Pablo Padilla’s Blog</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Estimation vs Forecast in Software projects" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="During my career in Software, the problem of estimating the time, effort and cost of a software project has been one of the hardest." />
+<meta property="og:description" content="During my career in Software, the problem of estimating the time, effort and cost of a software project has been one of the hardest." />
+<link rel="canonical" href="https://pgpbpadilla.github.io/2023-12-21-estimation+forecast" />
+<meta property="og:url" content="https://pgpbpadilla.github.io/2023-12-21-estimation+forecast" />
+<meta property="og:site_name" content="Pablo Padilla’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-12-21T20:59:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Estimation vs Forecast in Software projects" />
+<meta name="twitter:site" content="@pgpbpadilla" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-21T20:59:00+00:00","datePublished":"2023-12-21T20:59:00+00:00","description":"During my career in Software, the problem of estimating the time, effort and cost of a software project has been one of the hardest.","headline":"Estimation vs Forecast in Software projects","mainEntityOfPage":{"@type":"WebPage","@id":"https://pgpbpadilla.github.io/2023-12-21-estimation+forecast"},"url":"https://pgpbpadilla.github.io/2023-12-21-estimation+forecast"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+
+    <link rel="canonical" href="https://pgpbpadilla.github.io/2023-12-21-estimation+forecast">
+
+    
+        <link rel="alternate" type="application/rss+xml" title="Pablo Padilla&#39;s Blog"
+              href="https://pgpbpadilla.github.io/feed.xml">
+    
+
+    <link rel="shortcut icon" href="https://pgpbpadilla.github.io/favicon.ico">
+
+    <meta name="robots" content="noarchive">
+
+    <!-- <link rel="alternate" media="only screen and (max-width: 640px)" href="">
+        <link rel="alternate" media="handheld" href=""> -->
+
+
+    <link rel="stylesheet"
+          href="https://pgpbpadilla.github.io/assets/css/style.css?v=9c3ad5bf5ef5be2986d5c97f40de229e44dbc1f3">
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script"
+            async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
+
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMDH4JF7"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+
+    
+      <a class="site-title" href="https://pgpbpadilla.github.io/">Pablo Padilla&#39;s Blog</a>
+    
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+                <a class="page-link" href="https://pgpbpadilla.github.io/about.html">About</a>
+              
+            
+          
+            
+            
+              
+                <a class="page-link" href="https://pgpbpadilla.github.io/now">Now</a>
+              
+            
+          
+            
+            
+              
+                <a class="page-link" href="https://pgpbpadilla.github.io/coffee">Coffee?</a>
+              
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+
+
+
+
+<section class="page-header">
+    <h1 class="project-name">Estimation vs Forecast in Software projects</h1>
+    <h2 class="project-tagline"></h2>
+    
+    <!-- Post tagline -->
+    
+    <!-- End: Post tagline -->
+</section>
+
+<section class="main-content">
+
+    <!--https://www.bryanbraun.com/anchorjs/-->
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+<script>
+    (function () {
+        window.addEventListener("DOMContentLoaded", (_) => {
+            let tocTitle = document.querySelector('nav.toc h2');
+            let toc = document.querySelector('nav.toc ul');
+            // hide TOC contents by default
+            toc.style.display = 'none';
+
+            // toggle TOC contents visibility when the title is clicked
+            tocTitle.addEventListener("click", (_) => {
+                if (toc.style.display === 'block') {
+                    toc.style.display = 'none';
+                } else {
+                    toc.style.display = 'block';
+                }
+            });
+            // make section titles copy deep link
+            // https://www.bryanbraun.com/anchorjs/
+            anchors.add();
+        });
+
+    })();
+</script>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+  <!-- <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Estimation vs Forecast in Software projects</h1>
+    <p class="post-meta">
+      <time datetime="2023-12-21T20:59:00+00:00" itemprop="datePublished">
+        
+        Dec 21, 2023
+      </time>
+      </p>
+  </header> -->
+
+    <div class="post-tags">
+        <span>Tags:</span>
+        
+        <a href="/tag/journal.html" rel="tag">journal</a>, <a href="/tag/agile.html" rel="tag">agile</a>, <a href="/tag/software.html" rel="tag">software</a>, <a href="/tag/estimation.html" rel="tag">estimation</a>, <a href="/tag/forecast.html" rel="tag">forecast</a>, <a href="/tag/noestimates.html" rel="tag">NoEstimates</a>
+        
+    </div>
+
+    <div itemprop="articleBody" class="text-justify">
+        <div>
+            
+                <nav id="table-of-contents" class="toc">
+                    <h2>Table of contents</h2>
+                    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#org1f35938">Agile estimation</a></li>
+<li class="toc-entry toc-h2"><a href="#org9aa764a">Forecasts</a></li>
+<li class="toc-entry toc-h2"><a href="#org4afece7">Priorities</a></li>
+<li class="toc-entry toc-h2"><a href="#orgcf76ab7">Challenges</a></li>
+<li class="toc-entry toc-h2"><a href="#org553f485">Further reading</a></li>
+</ul>
+                </nav>
+            
+            <div id="markdown-content">
+                <p>
+During my career in Software, the problem of estimating the time,
+effort and cost of a software project has been one of the hardest.
+</p>
+
+<div class="amzn-disclaimer">
+  <p>
+    <strong>Disclosure:</strong> Some of the links below are affiliate
+    links. This means that if you click through and make a purchase, I
+    may earn a small commission at no extra cost to you.
+  </p>
+</div>
+
+
+
+
+<div id="outline-container-org1f35938" class="outline-2">
+<h2 id="org1f35938">Agile estimation</h2>
+<div class="outline-text-2" id="text-org1f35938">
+<p>
+When I learned about Scrum, I was totally convinced that estimation
+was legit. It bothered me that when estimating using Fibonacci
+numbers, people would try to do arithmetic with them like it meant
+something. It doesn't. Calculating <i>velocity</i> was more or less
+pointless.
+</p>
+
+<p>
+I still buy that relative estimation was better than absolute
+estimation, however, in order to get good at estimating, you have to
+have seen many similar items. In my career, I have been switching
+technologies and industries every couple of years so pretty much
+every task is, in some sense, different and it's hard to compare
+with the past.
+</p>
+
+<p>
+The time discussing whether something is an X, XL or XXL was almost
+too much for me. I wanted to get started building something small,
+then extend it a bit, then a bit more, you know, iterative and
+incremental progress instead of trying to nail down an accurate
+estimate the first time.
+</p>
+
+<p>
+Today I am convinced that estimation in this way is a complete waste
+of time.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org9aa764a" class="outline-2">
+<h2 id="org9aa764a">Forecasts</h2>
+<div class="outline-text-2" id="text-org9aa764a">
+<p>
+While looking for alternatives I found the <a href="https://www.youtube.com/watch?v=QVBlnCTu9Ms">#NoEstimates video</a> from
+<a href="https://holub.com/">Allen Holub</a> and I was hooked. The idea of using past performance to
+make projections about the future was already present in Scrum and I
+was more or less comfortable taking it for granted. Calculating
+velocity never really made much sense to me, given what I said about
+doing arithmetic with Fibonacci numbers, can you imagine doing it
+with T-Shirt sizes?
+</p>
+
+<p>
+Holub proposes instead to do away with all the time used for trying
+to estimate a task and instead ensure that tasks are as small and
+that they are prioritised. Nobody wants to spend time doing stuff
+that does not matter.
+</p>
+
+<p>
+Measuring actual time it takes to complete enables you to stop using
+guesstimates, it's faster and easier to do. Making tasks small means
+there are more data points (measurements) available to create a
+forecast/projection of how long it may take to complete a list of
+tasks.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org4afece7" class="outline-2">
+<h2 id="org4afece7">Priorities</h2>
+<div class="outline-text-2" id="text-org4afece7">
+<p>
+With agile estimation, you don't know when a particular item in the
+backlog will be completed. This gets more difficult as more stories
+are dropped in order to make the deadline.
+</p>
+
+<p>
+A forecast will tell you the likelihood of completing a specific
+task at a given time and it can be recalculated as you rearrange
+items in the backlog.
+</p>
+
+<p>
+The ease and speed of calculating a forecast can be a stronger
+motivator for decision makers to try and rearrange the backlog with
+confidence in order to visualise different scenarios. This is harder
+to do with agile estimation methods since it's difficult to
+anticipate the impact that rearranging the backlog will have on the
+completion date of a task.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgcf76ab7" class="outline-2">
+<h2 id="orgcf76ab7">Challenges</h2>
+<div class="outline-text-2" id="text-orgcf76ab7">
+<p>
+Measurements + forecasting seem to me like they should yield better
+results when used for project estimation. However, it's difficult to
+apply. Even if you manage to master all the concepts of how to
+properly use a forecasting technique, you still need to provide your
+estimate of the project's cost and effort and duration before you
+can get the money to start the project.
+</p>
+
+<p>
+Another difficulty is that once a project is started, it's difficult
+to gain mind share about using a forecast instead of
+estimates. People are already struggling to make sense of Agile
+estimation methods given all of their obvious pitfalls. Convincing
+them to use something like a Monte-Carlo simulation to forecast the
+likelihood of a task being done at a particular point in time can be
+challenging at best.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-org553f485" class="outline-2">
+<h2 id="org553f485">Further reading</h2>
+<div class="outline-text-2" id="text-org553f485">
+<ol class="org-ol">
+<li><a href="https://holub.com/noestimates-an-introduction/">#NoEstimates, an introduction @ Allen Holub' Blog</a></li>
+<li><a href="https://www.youtube.com/watch?v=juVYuh0S1hQ&amp;ab_channel=ConfEngine">No estimates by Vasco Duarte @ YouTube</a>: how you can predict the
+release date of your project without estimating</li>
+<li>No estimates: How to measure project progress without estimating
+by Vasco Duarte.
+<a href="https://amzn.to/4enAgHP"
+               target="_blank">
+              Buy on amazon.
+            </a></li>
+</ol>
+</div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; align-items: center; margin: 2em 0;">
+  <div style="flex-grow: 1; border-bottom: 2px solid gray;"></div>
+</div>
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center">
+  <div style="text-align: center; margin: 2em 0;">
+    <form action="https://www.paypal.com/donate"
+          method="post" target="_top">
+      <input type="hidden"
+             name="hosted_button_id"
+             value="P7QKTZT266QLE" />
+      <input type="image"
+             src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif"
+             border="0"
+             name="submit"
+             title="PayPal - The safer, easier way to pay online!"
+             alt="Donate with PayPal button" />
+      <img alt=""
+           border="0"
+           src="https://www.paypal.com/en_DE/i/scr/pixel.gif"
+           width="1"
+           height="1" />
+    </form>
+  </div>
+
+  <div style="text-align: center; width: 150px">
+    <img src="/assets/images/alipay-code.jpg">
+    <figcaption>Alipay Code.</figcaption>
+  </div>
+  
+</div>
+
+
+<div style="display: flex; align-items: center; margin: 2em 0;">
+  <div style="flex-grow: 1; border-bottom: 2px solid gray;"></div>
+</div>
+
+
+    
+        <div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+    var disqus_config = function () {
+        this.page.url = 'https://pgpbpadilla.github.io/2023-12-21-estimation+forecast';
+        this.page.identifier = '/estimate+forecast';
+    };
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://pgpbpadilla.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+    
+
+
+</article>
+
+
+    <footer class="site-footer">
+        <!-- SVG icons from https://iconmonstr.com -->
+
+        <!-- Github icon -->
+        <span class="my-span-icon">
+                    <a href="https://github.com/pgpbpadilla/pgpbpadilla.github.io"
+                       aria-label="pgpbpadilla.github.io"
+                       title="pgpbpadilla.github.io">
+                        <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                             viewBox="0 0 24 24"><path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </span>
+
+        <!-- Twitter icon -->
+        <span class="my-span-icon">
+                    <a href="https://twitter.com/pgpbpadilla"
+                       aria-label="pgpbpadilla's Twitter"
+                       title="pgpbpadilla's Twitter">
+                        <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                             viewBox="0 0 24 24"><path
+                                    d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
+                    </a>
+                </span>
+
+        <!-- RSS icon -->
+        
+            <span class="my-span-icon">
+                    <a href="https://pgpbpadilla.github.io/feed.xml" aria-label="RSS feed"
+                       title="pgpbpadilla's RSS feed">
+                        <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                             viewBox="0 0 24 24"><path
+                                    d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-3.374 17c-.897 0-1.626-.727-1.626-1.624s.729-1.624 1.626-1.624 1.626.727 1.626 1.624-.729 1.624-1.626 1.624zm3.885 0c-.03-3.022-2.485-5.474-5.511-5.504v-2.406c4.361.03 7.889 3.555 7.92 7.91h-2.409zm4.081 0c-.016-5.297-4.303-9.571-9.592-9.594v-2.406c6.623.023 11.985 5.384 12 12h-2.408z"/></svg>
+                    </a>
+                </span>
+        
+
+        <!-- Contact icon -->
+        
+        
+
+    </footer>
+</section>
+
+<script>
+    var menu = document.querySelector("nav.site-nav");
+    var checkbox = document.getElementById("nav-trigger");
+
+    // close menu if click outside menu
+    document.addEventListener("click", function (e) {
+        if (menu != e.target &&
+            !isDescendant(menu, e.target)) {
+            checkbox.checked = false;
+        }
+    }, false);
+
+    function isDescendant(parent, child) {
+        var node = child.parentNode;
+        while (node != null) {
+            if (node == parent) {
+                return true;
+            }
+            node = node.parentNode;
+        }
+        return false;
+    }
+</script>
+
+</body>
+</html>

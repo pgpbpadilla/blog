@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="810px" preserveAspectRatio="none" style="width:577px;height:810px;background:#FFFFFF;" version="1.1" viewBox="0 0 577 810" width="577px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="255" x="154" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="245" x="159" y="23.5352">Boot sequence: task dependencies</text><!--MD5=[6fa47a722a72b965bd621f330203bf5c]
+entity vc--><g id="elem_vc"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="118" y="44.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="128" y="61.0234">Version Control</text></g><!--MD5=[2b7c249d40b79cd8702aedfc79ac0231]
+entity gs--><g id="elem_gs"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="132.5" y="126.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="142.5" y="143.0234">Gold Server</text></g><!--MD5=[9e49e3c8bdf5a29a2ce4e6d95b59f9ea]
+entity ahct--><g id="elem_ahct"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="161" x="10.5" y="208.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="20.5" y="225.0234">Ad Hoc change tools</text></g><!--MD5=[bced5022a2a71b159a4548e047953711]
+entity hit--><g id="elem_hit"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="207" y="208.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="217" y="225.0234">Host install tools</text></g><!--MD5=[727c1040af9be188ab17d19c49f9ac10]
+entity ds--><g id="elem_ds"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="135" x="114.5" y="290.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="124.5" y="307.0234">Directory servers</text></g><!--MD5=[e29493a8775effcafa538aa0485107d1]
+entity auth--><g id="elem_auth"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="174" x="7" y="372.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="17" y="389.0234">Authentication servers</text></g><!--MD5=[11b1efe42b05059e3bf4c53c8cdc3e2f]
+entity time--><g id="elem_time"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="216.5" y="372.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="226.5" y="389.0234">Time servers</text></g><!--MD5=[ddc1ced41d7259ed17f5468eeb3898cc]
+entity nfs--><g id="elem_nfs"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155" x="16.5" y="454.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="26.5" y="471.0234">Network file servers</text></g><!--MD5=[9e5b3fcb710b44600071359bb2946f2f]
+entity frs--><g id="elem_frs"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="174" x="207" y="454.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="217" y="471.0234">File replication servers</text></g><!--MD5=[8f464b171958f35c8efe3046e7736abb]
+entity cfa--><g id="elem_cfa"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="133" x="127.5" y="536.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="137.5" y="553.0234">Client file access</text></g><!--MD5=[86d65970e1346b32c59b9d2e6e3fbc30]
+entity cosu--><g id="elem_cosu"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="135" x="126.5" y="618.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="136.5" y="635.0234">Client OS update</text></g><!--MD5=[826bd400156cd0080340215c7f2f3e87]
+entity ccm--><g id="elem_ccm"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="251" x="68.5" y="700.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="78.5" y="717.0234">Client configuration management</text></g><!--MD5=[d214511de4cf5d41d91ac0d6a862c909]
+entity mail--><g id="elem_mail"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="14" y="782.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="24" y="799.0234">Mail</text></g><!--MD5=[5bc10d3805ee101f47f34a941737e680]
+entity print--><g id="elem_print"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="97" y="782.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="107" y="799.0234">Printing</text></g><!--MD5=[fb3bcafbab37ea0007cfa65e129ab2d9]
+entity monitor--><g id="elem_monitor"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="206" y="782.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="216" y="799.0234">Monitoring</text></g><!--MD5=[cc0b6f262df5a2b8e82a805a09600c41]
+entity cam--><g id="elem_cam"><rect fill="#F1F1F1" height="22.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="337" y="782.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="347" y="799.0234">Client application management</text></g><!--MD5=[df747ad4b4e45a7d40a854a89480f0ea]
+reverse link vc to gs--><g id="link_vc_gs"><path d="M182,71.7083 C182,87.7783 182,112.6583 182,126.4383 " fill="none" id="vc-backto-gs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="182,66.6183,178,75.6183,182,71.6183,186,75.6183,182,66.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[03a029ee96c7dc0e5c1156c2c85f9992]
+reverse link gs to ahct--><g id="link_gs_ahct"><path d="M166.56,152.0583 C148.39,168.0283 118.65,194.1783 102.43,208.4383 " fill="none" id="gs-backto-ahct" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="170.47,148.6183,161.0746,151.5723,166.7204,151.9259,166.3668,157.5717,170.47,148.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0bbe9760416b3c78a0abf74bdf041564]
+reverse link gs to hit--><g id="link_gs_hit"><path d="M197.61,152.0583 C215.97,168.0283 246.04,194.1783 262.44,208.4383 " fill="none" id="gs-backto-hit" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="193.65,148.6183,197.8276,157.5372,197.427,151.8946,203.0697,151.494,193.65,148.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[99abd92f45791e4fe153d5fbd1c56c2e]
+reverse link ahct to ds--><g id="link_ahct_ds"><path d="M106.44,234.0583 C124.61,250.0283 154.35,276.1783 170.57,290.4383 " fill="none" id="ahct-backto-ds" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="102.53,230.6183,106.6332,239.5717,106.2796,233.9259,111.9254,233.5723,102.53,230.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e9c302884a4d7847810c0d70cf80729a]
+reverse link hit to ds--><g id="link_hit_ds"><path d="M258.39,234.0583 C240.03,250.0283 209.96,276.1783 193.56,290.4383 " fill="none" id="hit-backto-ds" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="262.35,230.6183,252.9303,233.494,258.573,233.8946,258.1724,239.5372,262.35,230.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a33296a654b621641a43f77b99aa6c58]
+reverse link ds to auth--><g id="link_ds_auth"><path d="M167.07,316.0583 C149.5,332.0283 120.74,358.1783 105.05,372.4383 " fill="none" id="ds-backto-auth" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="170.85,312.6183,161.4969,315.7036,167.1471,315.9781,166.8726,321.6283,170.85,312.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c8bb2a6dd3748362ef8f7f76bf3972c9]
+reverse link ds to time--><g id="link_ds_time"><path d="M196.93,316.0583 C214.5,332.0283 243.26,358.1783 258.95,372.4383 " fill="none" id="ds-backto-time" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="193.15,312.6183,197.1274,321.6283,196.8529,315.9781,202.5031,315.7036,193.15,312.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8c202a645464a3cc88c4b22d75603f66]
+reverse link auth to nfs--><g id="link_auth_nfs"><path d="M94,399.7083 C94,415.7783 94,440.6583 94,454.4383 " fill="none" id="auth-backto-nfs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="94,394.6183,90,403.6183,94,399.6183,98,403.6183,94,394.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[69b9b7f504895683341346c38d53d06e]
+reverse link time to nfs--><g id="link_time_nfs"><path d="M242.76,396.8683 C207.92,412.7083 148.27,439.8183 116.11,454.4383 " fill="none" id="time-backto-nfs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="247.71,394.6183,237.8616,394.7127,243.1606,396.6927,241.1806,401.9917,247.71,394.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e701aaa1d29e82397999497b259104cf]
+reverse link time to frs--><g id="link_time_frs"><path d="M274.56,399.7083 C279.39,415.7783 286.85,440.6583 290.99,454.4383 " fill="none" id="time-backto-frs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="273.04,394.6183,271.7814,404.3864,274.4702,399.4094,279.4472,402.0981,273.04,394.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f04c9744113121215a1e22f97fe0f55b]
+reverse link nfs to cfa--><g id="link_nfs_cfa"><path d="M110.71,479.8583 C130.65,495.8083 163.54,522.1183 181.44,536.4383 " fill="none" id="nfs-backto-cfa" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="106.67,476.6183,111.2069,485.36,110.5771,479.7383,116.1988,479.1085,106.67,476.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[17aaa2b83b044737992fe239446869ae]
+reverse link frs to cfa--><g id="link_frs_cfa"><path d="M277.29,479.8583 C257.35,495.8083 224.46,522.1183 206.56,536.4383 " fill="none" id="frs-backto-cfa" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="281.33,476.6183,271.8012,479.1085,277.4229,479.7383,276.7931,485.36,281.33,476.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[280bf305ddff7ff32264e0198b47c4d5]
+reverse link cfa to cosu--><g id="link_cfa_cosu"><path d="M194,563.7083 C194,579.7783 194,604.6583 194,618.4383 " fill="none" id="cfa-backto-cosu" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="194,558.6183,190,567.6183,194,563.6183,198,567.6183,194,558.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[31ad72feedeaa0d8f60b02327bacc8ff]
+reverse link cosu to ccm--><g id="link_cosu_ccm"><path d="M194,645.7083 C194,661.7783 194,686.6583 194,700.4383 " fill="none" id="cosu-backto-ccm" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="194,640.6183,190,649.6183,194,645.6183,198,649.6183,194,640.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[58715048c6ce611fa105d666d5cf9a53]
+reverse link ccm to mail--><g id="link_ccm_mail"><path d="M169.47,725.0683 C138.54,740.9283 85.99,767.8783 57.6,782.4383 " fill="none" id="ccm-backto-mail" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="174.24,722.6183,164.4071,723.1787,169.7939,724.9057,168.0669,730.2925,174.24,722.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[58b874365627cb5d00024ad0ccff38ee]
+reverse link ccm to print--><g id="link_ccm_print"><path d="M183.21,726.8783 C171.19,742.9083 152.05,768.4183 141.54,782.4383 " fill="none" id="ccm-backto-print" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="186.4,722.6183,177.8,727.4183,183.4,726.6183,184.2,732.2183,186.4,722.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9a1631f351cb8fc29222f45a15b91d82]
+reverse link ccm to monitor--><g id="link_ccm_monitor"><path d="M204.79,726.8783 C216.81,742.9083 235.95,768.4183 246.46,782.4383 " fill="none" id="ccm-backto-monitor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="201.6,722.6183,203.8,732.2183,204.6,726.6183,210.2,727.4183,201.6,722.6183" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1d80f41b28aa9e84ee5add638c3c4585]
+reverse link ccm to cam--><g id="link_ccm_cam"><path d="M231.47,724.0183 C282.46,739.7083 372.86,767.5283 421.26,782.4183 " fill="none" id="ccm-backto-cam" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="226.67,722.5383,234.0916,729.0129,231.448,724.0117,236.4491,721.3681,226.67,722.5383" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[06b3e9f21f3d1261746ffc9b6ad616b8]
+@startuml
+
+title Boot sequence: task dependencies
+
+card "Version Control" as vc
+card "Gold Server" as gs
+card "Ad Hoc change tools" as ahct
+card "Host install tools" as hit
+card "Directory servers" as ds
+card "Authentication servers" as auth
+card "Time servers" as time
+card "Network file servers" as nfs
+card "File replication servers" as frs
+card "Client file access" as cfa
+card "Client OS update" as cosu
+card "Client configuration management" as ccm
+card "Mail" as mail
+card "Printing" as print
+card "Monitoring" as monitor
+card "Client application management" as cam
+
+
+vc <- - gs
+gs <- - ahct
+gs <- - hit
+ahct <- - ds
+hit <- - ds
+ds <- - auth
+ds <- - time
+auth <- - nfs
+time <- - nfs
+time <- - frs
+nfs <- - cfa
+frs <- - cfa
+cfa <- - cosu
+cosu <- - ccm
+ccm <- - mail
+ccm <- - print
+ccm <- - monitor
+ccm <- - cam
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 12:55:52 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: de
+Country: DE
+--></g></svg>
